@@ -1,4 +1,5 @@
 */
+incron.d/etc.conf
 !.gitignore
 !ntp.conf
 !sshguard/
