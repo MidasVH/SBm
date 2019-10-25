@@ -1,9 +1,7 @@
-*
+*/
 !.gitignore
 !ntp.conf
 !sshguard/
 !default/
 !scripts/
-!incron/
-!init.d/
 !sudoers
