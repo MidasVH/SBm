@@ -6,3 +6,4 @@ incron.d/etc.conf
 !default/
 !scripts/
 !sudoers
+!ethers
