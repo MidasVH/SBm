@@ -7,3 +7,4 @@ incron.d/etc.conf
 !scripts/
 !sudoers
 !ethers
+!bind/
