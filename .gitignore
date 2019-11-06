@@ -1,10 +1,1 @@
-*/
-incron.d/etc.conf
-!.gitignore
-!ntp.conf
-!sshguard/
-!default/
-!scripts/
-!sudoers
-!ethers
-!bind/
+/mrt
