@@ -1,4 +1,5 @@
 mrt/
 apparmor/
 apparmor.d/
-incron.d/
+incron.d/etc.conf
+
