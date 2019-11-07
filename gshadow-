@@ -54,3 +54,4 @@ check:!::
 incron:!::
 ftp:!::
 ntp:!::
+bind:!::
