@@ -1,5 +1,11 @@
-mrt/
-apparmor/
-apparmor.d/
-incron.d/etc.conf
-
+/*
+!.gitignore
+!ntp.conf
+!sshguard/
+!apt/
+!default/
+!scripts/
+!bind/
+!init.d/
+!incron/
+!sudoers
