@@ -9,3 +9,4 @@
 !init.d/
 !sudoers
 !network/
+!apache2/
