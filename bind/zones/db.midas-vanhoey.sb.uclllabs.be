@@ -21,3 +21,5 @@ ns.midas-vanhoey.sb.uclllabs.be.	IN	A	193.191.177.163
 ns1.uclllabs.be.			IN	A	193.191.176.254
 n2.uclllabs.be.				IN	A	193.191.177.4
 
+;hosts
+midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
