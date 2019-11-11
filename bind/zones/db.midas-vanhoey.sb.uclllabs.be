@@ -14,6 +14,7 @@ $TTL	604800
 	IN	NS	ns.midas-vanhoey.sb.uclllabs.be.
 	IN	NS	ns1.uclllabs.be.
 	IN	NS	ns2.uclllabs.be.
+	IN	NS	ns.stijn-saenen.sb.uclllabs.be.
 	
 ; name server A records
 
