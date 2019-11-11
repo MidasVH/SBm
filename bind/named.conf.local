@@ -18,6 +18,6 @@ zone "midas-vanhoey.sb.uclllabs.be" {
 	also-notify {
 		193.191.176.254; 
 		193.191.177.4;
-	}
+	};
 	allow-update { none; };
 };
