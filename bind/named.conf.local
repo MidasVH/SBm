@@ -10,5 +10,5 @@ zone "midas-vanhoey.sb.uclllabs.be" {
 	type master;
 	file "/etc/bind/zones/db.midas-vanhoey.sb.uclllabs.be";
 	allow-transfer { 193.191.176.254; };
-	also-notify {193.191.176.254; 193.191.177.4};
+	also-notify {193.191.176.254; 193.191.177.4;};
 };
