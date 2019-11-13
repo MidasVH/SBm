@@ -9,10 +9,12 @@ mkdir "/var/www/$1"
 
 echo 	"<VirtualHost *:80>
 		ServerName $1
-		DocumentRoot "/var/www/$1"
+		DocumentRoot "/var/www/$1/html"
 		ErrorLog "/var/log/apache2/$1.log"
 		CustomLog "/var/log/apache2/$1.log" combined
 	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
+
+echo "welcome " > "/var/www/$1/html/index.html"
 
 a2ensite $1 > /dev/null
 systemctl reload apache2
