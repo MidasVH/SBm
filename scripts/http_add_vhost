@@ -7,3 +7,9 @@ fi
 
 mkdir "/var/www/$1"
 
+echo 	"<VirtualHost *:80>
+		ServerName $1
+		DocumentRoot "/var/www/$1"
+		ErrorLog ${APACHE_LOG_DIR}/$1.log
+		CustomLog ${APACHE_LOG_DIR}/$1.log combined
+	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
