@@ -13,3 +13,6 @@ echo 	"<VirtualHost *:80>
 		ErrorLog "/var/log/apache2/$1.log"
 		CustomLog "/var/log/apache2/$1.log" combined
 	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
+
+a2ensite $1
+systemctl restart apache2
