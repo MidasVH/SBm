@@ -15,4 +15,4 @@ echo 	"<VirtualHost *:80>
 	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
 
 a2ensite $1
-systemctl restart apache2
+systemctl reload apache2
