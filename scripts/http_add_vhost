@@ -6,6 +6,7 @@ if [ -e "/etc/apache2/sites-available/$1.conf" ]; then
 fi
 
 mkdir "/var/www/$1"
+mkdir "/var/www/$1/html"
 
 echo 	"<VirtualHost *:80>
 		ServerName $1
@@ -14,7 +15,8 @@ echo 	"<VirtualHost *:80>
 		CustomLog "/var/log/apache2/$1.log" combined
 	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
 
-echo "welcome " > "/var/www/$1/html/index.html"
+subdomain=$(echo $1 | grep -oP ".*(?=(\.midas-vanhoey))")
+echo "welcome $subdomain" > "/var/www/$1/html/index.html"
 
 a2ensite $1 > /dev/null
 systemctl reload apache2
