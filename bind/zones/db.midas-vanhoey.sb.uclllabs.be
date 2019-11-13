@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.midas-vanhoey.sb.uclllabs.be admin.midas-vanhoey.sb.uclllabs.be. (
-			      5		; Serial
+			      6		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -23,6 +23,7 @@ ns1.uclllabs.be.			IN	A	193.191.176.254
 n2.uclllabs.be.				IN	A	193.191.177.4
 
 ;hosts
+*.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 www.midas-vanhoey.sb.uclllabs.be.	IN	A	193.191.177.163
 www1.midas-vanhoey.sb.uclllabs.be.	IN	A	193.191.177.163
