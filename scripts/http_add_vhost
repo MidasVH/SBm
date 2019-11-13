@@ -1,4 +1,9 @@
 #!/bin/bash
+#check if vhost exists
+if [ -e "/etc/apache2/sites-available/$1.conf" ]; then
+	echo "this vhost already exists"
+	exit 1
+fi
 
 mkdir "/var/www/$1"
 
