@@ -14,5 +14,5 @@ echo 	"<VirtualHost *:80>
 		CustomLog "/var/log/apache2/$1.log" combined
 	</VirtualHost>" > "/etc/apache2/sites-available/$1.conf"
 
-a2ensite $1
+a2ensite $1 > /dev/null
 systemctl reload apache2
