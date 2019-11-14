@@ -28,3 +28,4 @@ check:$6$X0QOP4z/$D8cn1yFY6mH8cv56CIoehBqwLQMDQEvG2akqr5K6BUy.9XvGT6A4V1q2MH9vJl
 ftp:*:18179:0:99999:7:::
 ntp:*:18187:0:99999:7:::
 bind:*:18205:0:99999:7:::
+mysql:!:18214:0:99999:7:::
