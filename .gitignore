@@ -10,3 +10,4 @@
 !sudoers
 !network/
 !apache2/
+!mysql/
