@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	ns.midas-vanhoey.sb.uclllabs.be admin.midas-vanhoey.sb.uclllabs.be. (
-			      7		; Serial
+			      8		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -29,5 +29,8 @@ www.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 www1.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 www2.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 test.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.254
+; https configuration
 secure.midas-vanhoey.sb.uclllabs.be.		IN	A	193.191.177.163
 supersecure.midas-vanhoey.sb.uclllabs.be.	IN	A	193.191.177.163
+@						IN	CAA	0 issue "letsencript.org"
+@						IN	CAA	0 iodef "mailto:vanhoeymidas@gmail.com"
