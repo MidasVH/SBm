@@ -56,3 +56,4 @@ ftp:x:115:
 ntp:x:116:
 bind:x:117:
 netdev:x:118:
+mysql:x:119:
