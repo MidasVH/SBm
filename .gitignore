@@ -12,3 +12,4 @@
 !apache2/
 !mysql/
 !environment
+!netplan
